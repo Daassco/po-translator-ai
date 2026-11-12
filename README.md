@@ -112,6 +112,15 @@ To enable cloud history synchronization and GitHub OAuth authentication:
 
 ---
 
+## Documentation
+
+For technical details, architectural specifications, and UI design tokens:
+- [Product Requirements & Architecture Spec](docs/prd.md)
+- [Design System & UI Guidelines](docs/design.md)
+- [Contribution Guide](CONTRIBUTING.md)
+
+---
+
 ## Contributing
 
 Contributions from the open-source community are welcome.

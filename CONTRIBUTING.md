@@ -36,6 +36,7 @@ Terima kasih atas ketertarikan Anda untuk berkontribusi pada **Penerjemah PO AI*
 ## Standar Kode & Desain
 
 - Seluruh kode ditulis dalam **TypeScript** dengan `strict: true`.
-- Desain visual wajib mengikuti spesifikasi warna dan tipografi di `design.md`.
+- Desain visual wajib mengikuti spesifikasi warna dan tipografi di [`docs/design.md`](docs/design.md).
+- Arsitektur sistem dan spesifikasi fitur merujuk pada [`docs/prd.md`](docs/prd.md).
 - Komponen bervariant wajib menggunakan `cva` (`class-variance-authority`) dan `cn()` utility.
 - Jangan pernah menyertakan kredensial atau API key di dalam kode sumber repositori.
