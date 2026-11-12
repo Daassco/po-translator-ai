@@ -5,13 +5,13 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4.svg)](https://tailwindcss.com/)
 [![Universal AI](https://img.shields.io/badge/AI-Universal_Multi--Model-10B981.svg)](https://github.com)
 
-An open-source, client-side web application for localizing GNU Gettext (`.po` and `.pot`) files using universal AI models. Supports Google Gemini, Ollama (100% offline and free), OpenRouter (Claude 3.5 Sonnet, GPT-4o, DeepSeek, Qwen 2.5), DeepSeek Official, Groq, OpenAI, and any custom OpenAI-compatible endpoint. Built with variable and placeholder integrity guards, client-side cryptographic storage, a collaborative community glossary, and a Bring Your Own Key (BYOK) architecture.
+An open-source, client-side web application for localizing GNU Gettext (`.po` and `.pot`) files using universal AI models. Supports Google Gemini, Ollama (100% offline and free), OpenRouter (Claude, GPT, DeepSeek, Qwen), DeepSeek Official, Groq, OpenAI, and any custom OpenAI-compatible endpoint. Built with variable and placeholder integrity guards, client-side cryptographic storage, a collaborative community glossary, and a Bring Your Own Key (BYOK) architecture.
 
 ---
 
 ## Key Features
 
-- **Universal Multi-Model AI Engine:** Connect any AI model of your choice. Native support for Google Gemini, local offline models via Ollama (`llama3.2`, `qwen2.5-coder`, `deepseek-r1`), multi-model cloud access via OpenRouter (`claude-3.5-sonnet`, `gpt-4o`, `qwen-2.5-72b`), DeepSeek Official (`deepseek-chat`, `deepseek-reasoner`), Groq ultra-fast LPU inference, and custom OpenAI-compatible endpoints.
+- **Universal Multi-Model AI Engine:** Connect any AI model of your choice. Native support for Google Gemini, local offline models via Ollama (Llama, Qwen, DeepSeek), multi-model cloud access via OpenRouter (Claude, GPT, Qwen, DeepSeek), DeepSeek Official, Groq ultra-fast LPU inference, and custom OpenAI-compatible endpoints.
 - **Bring Your Own Key (BYOK) Architecture:** Use your own API keys or run completely free and offline with Ollama. Sensitive keys can be encrypted locally in the browser with a user-defined Master PIN (Web Crypto AES-GCM), ensuring zero server-side exposure.
 - **Dual-Layer Placeholder and Syntax Guard:** Preserves printf format specifiers (`%s`, `%d`, `%1$s`, `%.2f`), bracket variables (`{name}`, `{{count}}`), and immutable HTML/XML tags. Employs prompt rules and client-side validation to prevent modifications to tag contents and attributes (such as `<img id="Guide_1_KR"/>`).
 - **Real-Time Model and Token Metrics:** Live dashboard tracking active AI models, processed files, translated strings, and dynamic token usage estimations.
@@ -48,7 +48,7 @@ An open-source, client-side web application for localizing GNU Gettext (`.po` an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/po-translator-ai.git
+   git clone https://github.com/Daassco/po-translator-ai.git
    cd po-translator-ai
    ```
 
@@ -107,7 +107,7 @@ To enable cloud history synchronization and GitHub OAuth authentication:
    ```env
    VITE_SUPABASE_URL=https://your-project.supabase.co
    VITE_SUPABASE_PUBLISHABLE_KEY=your-supabase-publishable-key
-   VITE_GITHUB_REPO=your-org/your-repo
+   VITE_GITHUB_REPO=Daassco/po-translator-ai
    ```
 
 ---
